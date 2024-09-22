@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load trained model
-with open('C:\\Users\\Khushi Verma\\Documents\\HEC-X\\Studies\\Sem 3\\02 - Tooling for Data Scientists\\Customer_Churn_Prediction\\models\\churn_model.pkl', 'rb') as f:
+with open('..models/churn_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 
